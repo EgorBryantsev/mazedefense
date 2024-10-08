@@ -1,0 +1,31 @@
+### 1. Maze Generation
+**How to Demo**: Start the game, click "New Game," and a maze-like map with paths should be generated.  
+**Notes**: The maze should have a start and end point for enemies.
+
+### 2. A* Pathfinding
+**How to Demo**: Enemies should find their way from the start to the end using the shortest path available.  
+**Notes**: Pathfinding algorithm (A*) implementation should be visible in enemy movement.
+
+### 3. Tower Placement
+**How to Demo**: Allow players to click on designated areas within the maze to place towers.  
+**Notes**: Ensure that towers only go in valid positions and cannot overlap.
+
+### 4. Enemy Waves
+**How to Demo**: Enemies spawn and move through the maze following each round start.  
+**Notes**: Demonstrate increasing difficulty and varied enemy types based on the "points" system.
+
+### 5. Tower Attacks
+**How to Demo**: Towers should attack enemies that come into range. Show the impact on enemy health.  
+**Notes**: Include basic attack behavior, damage, and visual effects (e.g., bullets).
+
+### 6. Round and Reward System
+**How to Demo**: Defeat all enemies to progress to the next round and earn money for upgrading towers.  
+**Notes**: The reward (money) should increase based on the difficulty of the round.
+
+### 7. Upgrading Towers
+**How to Demo**: Upgrade existing towers to increase their attack power, range, or other attributes.  
+**Notes**: The player should be able to click on towers to upgrade them, and changes should be visible.
+
+### 8. Game Over Condition
+**How to Demo**: If enemies reach the end, show a "Game Over" screen.  
+**Notes**: Make sure this screen displays correctly and ends the game.
