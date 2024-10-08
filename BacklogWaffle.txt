@@ -15,17 +15,17 @@ How to Demo: Enemies spawn and move through the maze following each round start.
 Notes: Demonstrate increasing difficulty and varied enemy types based on the "points" system.
 
 5. Tower Attacks
-How to Demo: Towers should attack enemies that come into range. Show the impact on enemy health.  
-Notes: Include basic attack behavior, damage, and visual effects (e.g., bullets).
+How to Demo: Enemies that come into range of the towers should be shot at and get removed.  
+Notes: Include basic attack animation (e.g., bullets).
 
-6. Round and Reward System
-How to Demo: Defeat all enemies to progress to the next round and earn money for upgrading towers.  
-Notes: The reward (money) should increase based on the difficulty of the round.
+6. Rounds
+How to Demo: Defeat all enemies to progress to the next round. Earn money at the end of every round.
+Notes: The reward should be the same as the difficulty of the round.
 
 7. Upgrading Towers
-How to Demo: Upgrade existing towers to increase their attack power, range, or other attributes.  
+How to Demo: Towers should be able to be upgraded to increase various attributes.  
 Notes: The player should be able to click on towers to upgrade them, and changes should be visible.
 
 8. Game Over Condition
 How to Demo: If enemies reach the end, show a "Game Over" screen.  
-Notes: Make sure this screen displays correctly and ends the game.
+Notes: Make sure this ends the game.
