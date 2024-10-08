@@ -1,6 +1,6 @@
 1. Using Git for Collaboration
-How to Demo: Demonstrate the ability to create and merge branches, handle pull requests, and resolve conflicts while collaborating on the project.  
-Notes: The project repository should have a clear commit history showing contributions from both partners.
+How to Demo: Demonstrate the ability to create and merge branches, handle pull requests, and resolve conflicts.  
+Notes: The project repository should have a clear commit history.
 
 2. Maze Generation
 How to Demo: When you run the game, a maze-like map will be randomly generated consisting out of at least one route from the start to the end, with walls blocking ways. 
