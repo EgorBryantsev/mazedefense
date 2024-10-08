@@ -1,18 +1,20 @@
 1. Maze Generation
-How to Demo: Start the game, click "New Game," and a maze-like map with paths should be generated.  
-Notes: The maze should have a start and end point for enemies.
+How to Demo: When you run the game, a maze-like map will be randomly generated consisting out of at least one route from the start to the end, with walls blocking ways. 
+    There should also be (randomly located) 2x2 tiles for towers to be built on.
+Notes: The maze should have at least one spawn-tile for the enemies, and one end-tile for the enemies. If enemies reach end, player loses. Towers are not built when game starts, 
+    player must do this himself.
 
 2. A* Pathfinding
-How to Demo: Enemies should find their way from the start to the end using the shortest path available.  
-Notes: Pathfinding algorithm (A*) implementation should be visible in enemy movement.
+How to Demo: Using pathfinding, enemies will find their way through the (each time) randomly generated maze to the end of the maze. 
+Notes: The pathfinding needs to find the shortest route possible to the end of the maze. 
 
 3. Tower Placement
-How to Demo: Allow players to click on designated areas within the maze to place towers.  
-Notes: Ensure that towers only go in valid positions and cannot overlap.
+How to Demo: The towers can be placed (by the player) on the randomly pre-chosen spots for towers to be built on.
+Notes: Ensure towers can only be placed on 2x2 tiles, designated for towerbuilts and only one of the multiple towers that can be chosen from will be built on the tiles.
 
 4. Enemy Waves
-How to Demo: Enemies spawn and move through the maze following each round start.  
-Notes: Demonstrate increasing difficulty and varied enemy types based on the "points" system.
+How to Demo: Enemies spawn on their spawn-tile. Each time a wave starts a certain amount of enemies spawns, differing in difficulty. Once all enemies of that wave are defeated, the wave is over.  
+Notes: Based on a "points" system a different amount of enemies with different difficulty will summon each wave. These points will exponantially grow. Thus, so does the difficulty.
 
 5. Tower Attacks
 How to Demo: Towers should attack enemies that come into range. Show the impact on enemy health.  
